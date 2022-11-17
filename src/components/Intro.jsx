@@ -113,7 +113,7 @@ const Intro = () => {
         <Info>
           <Button>START A PROJECT</Button>
           <Contact>
-            <Phone>Call us (+47) 123 45 678</Phone>
+            <Phone>Call us (+1) 631 1234 5678</Phone>
             <ContactText>For any question or concern</ContactText>
           </Contact>
         </Info>
