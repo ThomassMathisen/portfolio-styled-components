@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import Woman from "../img/woman.png";
+import AnimatedShapes from "./AnimatedShapes";
 
 const Container = styled.div`
   height: calc(100vh - 50px);
@@ -49,7 +50,7 @@ const Info = styled.div`
   margin-top: 50px;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
 
   @media only screen and (max-width: 480px) {
     width: 100%;
@@ -120,6 +121,7 @@ const Intro = () => {
       <Right>
         <Image src={Woman} />
       </Right>
+      <AnimatedShapes />
     </Container>
   );
 };
